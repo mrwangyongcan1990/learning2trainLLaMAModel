@@ -1,0 +1,44 @@
+This is the training log file.
+{'loss': 2.5816, 'grad_norm': 1.950875163078308, 'learning_rate': 9.360000000000002e-06, 'entropy': 2.5477624416351317, 'num_tokens': 819200.0, 'mean_token_accuracy': 0.7564090013504028, 'epoch': 1.6}
+ 67%|██████▋   | 500/750 [04:20<02:09,  1.92it/s]/home/u/Llama2/llamaEnv/lib64/python3.9/site-packages/torch/_dynamo/eval_frame.py:929: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+100%|██████████| 750/750 [06:31<00:00,  1.92it/s]
+{'loss': 2.9623, 'grad_norm': 0.9451500773429871, 'learning_rate': 9.093333333333333e-06, 'entropy': 2.943876600265503, 'num_tokens': 839680.0, 'mean_token_accuracy': 0.7552837550640106, 'epoch': 1.64}
+{'loss': 2.6378, 'grad_norm': 0.9777457118034363, 'learning_rate': 8.826666666666668e-06, 'entropy': 2.6988251209259033, 'num_tokens': 860160.0, 'mean_token_accuracy': 0.7610567510128021, 'epoch': 1.68}
+{'loss': 2.4949, 'grad_norm': 1.7064157724380493, 'learning_rate': 8.560000000000001e-06, 'entropy': 2.4489941120147707, 'num_tokens': 880640.0, 'mean_token_accuracy': 0.766976511478424, 'epoch': 1.72}
+{'loss': 2.6829, 'grad_norm': 1.2644472122192383, 'learning_rate': 8.293333333333334e-06, 'entropy': 2.6713552474975586, 'num_tokens': 901120.0, 'mean_token_accuracy': 0.7798434555530548, 'epoch': 1.76}
+{'loss': 2.7502, 'grad_norm': 1.5181299448013306, 'learning_rate': 8.026666666666667e-06, 'entropy': 2.7359059691429137, 'num_tokens': 921600.0, 'mean_token_accuracy': 0.7867906093597412, 'epoch': 1.8}
+{'loss': 2.7984, 'grad_norm': 1.105049967765808, 'learning_rate': 7.76e-06, 'entropy': 2.7914708614349366, 'num_tokens': 942080.0, 'mean_token_accuracy': 0.7724559724330902, 'epoch': 1.84}
+{'loss': 2.597, 'grad_norm': 0.5430381894111633, 'learning_rate': 7.493333333333333e-06, 'entropy': 2.6237531304359436, 'num_tokens': 962560.0, 'mean_token_accuracy': 0.7638943254947662, 'epoch': 1.88}
+{'loss': 2.5251, 'grad_norm': 0.7357680201530457, 'learning_rate': 7.226666666666667e-06, 'entropy': 2.519871246814728, 'num_tokens': 983040.0, 'mean_token_accuracy': 0.7595890402793884, 'epoch': 1.92}
+{'loss': 2.5351, 'grad_norm': 0.8193820714950562, 'learning_rate': 6.96e-06, 'entropy': 2.5468008875846864, 'num_tokens': 1003520.0, 'mean_token_accuracy': 0.7651663422584534, 'epoch': 1.96}
+{'loss': 2.7151, 'grad_norm': 0.880923330783844, 'learning_rate': 6.693333333333334e-06, 'entropy': 2.7091148853302003, 'num_tokens': 1024000.0, 'mean_token_accuracy': 0.7941291570663452, 'epoch': 2.0}
+{'loss': 2.5896, 'grad_norm': 1.1199508905410767, 'learning_rate': 6.426666666666668e-06, 'entropy': 2.5831491470336916, 'num_tokens': 1044480.0, 'mean_token_accuracy': 0.7700097799301148, 'epoch': 2.04}
+{'loss': 2.4096, 'grad_norm': 0.9099383354187012, 'learning_rate': 6.16e-06, 'entropy': 2.406381702423096, 'num_tokens': 1064960.0, 'mean_token_accuracy': 0.7750489234924316, 'epoch': 2.08}
+{'loss': 2.7407, 'grad_norm': 1.5290706157684326, 'learning_rate': 5.893333333333334e-06, 'entropy': 2.7213969469070434, 'num_tokens': 1085440.0, 'mean_token_accuracy': 0.778522503376007, 'epoch': 2.12}
+{'loss': 2.515, 'grad_norm': 0.7680606842041016, 'learning_rate': 5.626666666666667e-06, 'entropy': 2.510850894451141, 'num_tokens': 1105920.0, 'mean_token_accuracy': 0.781115460395813, 'epoch': 2.16}
+{'loss': 2.6394, 'grad_norm': 1.0171186923980713, 'learning_rate': 5.36e-06, 'entropy': 2.62227463722229, 'num_tokens': 1126400.0, 'mean_token_accuracy': 0.7616927683353424, 'epoch': 2.2}
+{'loss': 2.3041, 'grad_norm': 1.586493730545044, 'learning_rate': 5.093333333333333e-06, 'entropy': 2.301724362373352, 'num_tokens': 1146880.0, 'mean_token_accuracy': 0.7576320886611938, 'epoch': 2.24}
+{'loss': 2.9908, 'grad_norm': 1.4428143501281738, 'learning_rate': 4.826666666666667e-06, 'entropy': 2.9864017009735107, 'num_tokens': 1167360.0, 'mean_token_accuracy': 0.8095890343189239, 'epoch': 2.28}
+{'loss': 2.714, 'grad_norm': 0.9635877013206482, 'learning_rate': 4.56e-06, 'entropy': 2.731749081611633, 'num_tokens': 1187840.0, 'mean_token_accuracy': 0.7749510765075683, 'epoch': 2.32}
+{'loss': 2.5574, 'grad_norm': 1.542140245437622, 'learning_rate': 4.2933333333333334e-06, 'entropy': 2.53504673242569, 'num_tokens': 1208320.0, 'mean_token_accuracy': 0.7795009851455689, 'epoch': 2.36}
+{'loss': 2.6152, 'grad_norm': 1.0442652702331543, 'learning_rate': 4.026666666666667e-06, 'entropy': 2.6197465300559997, 'num_tokens': 1228800.0, 'mean_token_accuracy': 0.7661937475204468, 'epoch': 2.4}
+{'loss': 2.5897, 'grad_norm': 1.0522304773330688, 'learning_rate': 3.7600000000000004e-06, 'entropy': 2.604782748222351, 'num_tokens': 1249280.0, 'mean_token_accuracy': 0.771673196554184, 'epoch': 2.44}
+{'loss': 2.4875, 'grad_norm': 1.591546654701233, 'learning_rate': 3.4933333333333335e-06, 'entropy': 2.5057920932769777, 'num_tokens': 1269760.0, 'mean_token_accuracy': 0.7675636053085327, 'epoch': 2.48}
+{'loss': 2.6832, 'grad_norm': 1.4872627258300781, 'learning_rate': 3.226666666666667e-06, 'entropy': 2.704875075817108, 'num_tokens': 1290240.0, 'mean_token_accuracy': 0.7688356220722199, 'epoch': 2.52}
+{'loss': 2.6351, 'grad_norm': 1.6721469163894653, 'learning_rate': 2.96e-06, 'entropy': 2.6314597606658934, 'num_tokens': 1310720.0, 'mean_token_accuracy': 0.7435420751571655, 'epoch': 2.56}
+{'loss': 2.2201, 'grad_norm': 0.5473893880844116, 'learning_rate': 2.6933333333333335e-06, 'entropy': 2.249576759338379, 'num_tokens': 1331200.0, 'mean_token_accuracy': 0.7604696691036225, 'epoch': 2.6}
+{'loss': 2.6812, 'grad_norm': 0.977462112903595, 'learning_rate': 2.426666666666667e-06, 'entropy': 2.7088930130004885, 'num_tokens': 1351680.0, 'mean_token_accuracy': 0.7672211349010467, 'epoch': 2.64}
+{'loss': 2.4763, 'grad_norm': 0.4625539779663086, 'learning_rate': 2.16e-06, 'entropy': 2.436177635192871, 'num_tokens': 1372160.0, 'mean_token_accuracy': 0.740215253829956, 'epoch': 2.68}
+{'loss': 2.4483, 'grad_norm': 0.6578532457351685, 'learning_rate': 1.8933333333333333e-06, 'entropy': 2.448163294792175, 'num_tokens': 1392640.0, 'mean_token_accuracy': 0.7720645666122437, 'epoch': 2.72}
+{'loss': 2.569, 'grad_norm': 1.2097629308700562, 'learning_rate': 1.6266666666666666e-06, 'entropy': 2.560081362724304, 'num_tokens': 1413120.0, 'mean_token_accuracy': 0.7677592992782593, 'epoch': 2.76}
+{'loss': 2.6164, 'grad_norm': 1.519428014755249, 'learning_rate': 1.3600000000000001e-06, 'entropy': 2.626487970352173, 'num_tokens': 1433600.0, 'mean_token_accuracy': 0.7742172122001648, 'epoch': 2.8}
+{'loss': 2.5805, 'grad_norm': 1.358585238456726, 'learning_rate': 1.0933333333333334e-06, 'entropy': 2.5496243834495544, 'num_tokens': 1454080.0, 'mean_token_accuracy': 0.7695694625377655, 'epoch': 2.84}
+{'loss': 2.1904, 'grad_norm': 1.621169090270996, 'learning_rate': 8.266666666666668e-07, 'entropy': 2.1845640778541564, 'num_tokens': 1474560.0, 'mean_token_accuracy': 0.7583170294761657, 'epoch': 2.88}
+{'loss': 2.5096, 'grad_norm': 1.605290412902832, 'learning_rate': 5.6e-07, 'entropy': 2.508148396015167, 'num_tokens': 1495040.0, 'mean_token_accuracy': 0.7604696691036225, 'epoch': 2.92}
+{'loss': 2.5756, 'grad_norm': 0.4930461645126343, 'learning_rate': 2.9333333333333337e-07, 'entropy': 2.5607969760894775, 'num_tokens': 1515520.0, 'mean_token_accuracy': 0.7516144812107086, 'epoch': 2.96}
+{'loss': 2.6249, 'grad_norm': 0.9318153262138367, 'learning_rate': 2.6666666666666667e-08, 'entropy': 2.578122651576996, 'num_tokens': 1536000.0, 'mean_token_accuracy': 0.7778864920139312, 'epoch': 3.0}
+{'train_runtime': 391.5894, 'train_samples_per_second': 7.661, 'train_steps_per_second': 1.915, 'train_loss': 2.9342838490804035, 'epoch': 3.0}
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.11it/s]
+Device set to use cuda:0
+<s>[INST] Explain the significance of the Turing Test in artificial intelligence. [/INST]  The Turing Test is a widely recognized and influential benchmark for measuring the intelligence of artificial intelligence (AI) systems. Developed by Alan Turing in 1950, the test assesses a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human. The test involves evaluating a machine's ability to converse with a human evaluator through a natural language interface, with the evaluator unaware
